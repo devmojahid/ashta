@@ -7979,6 +7979,7 @@ ul {
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: cover;
+  background-position: center;
   z-index: 1;
 }
 
@@ -21218,4 +21219,12 @@ ul li ul .is-new-menu>a>span::after {
 
 .owl-item:not(.center)>div:hover {
   opacity: .75;
+}
+
+.benefits-bg {
+  width: 840px !important;
+}
+
+.preloader__image {
+  background-image: url(../images/logo/logo.png);
 }
