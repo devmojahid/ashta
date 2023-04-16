@@ -21193,3 +21193,29 @@ ul li ul .is-new-menu>a>span::after {
 .site-footer__top {
   padding: 25px 0px !important;
 }
+
+.company_logo_section {
+  background: url(https://www.vmsl.com.bd/uploads/images/company_logo.jpg)no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.display-block {
+  display: block !important;
+}
+
+.owl-item>div {
+  cursor: pointer;
+  margin: 6% 8%;
+  transition: margin 0.4s ease;
+}
+
+.owl-item.center>div {
+  cursor: auto;
+  margin: 0;
+}
+
+.owl-item:not(.center)>div:hover {
+  opacity: .75;
+}
